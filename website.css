@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: cyan;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: black;
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 50px;
+   
+  }
+  .header p {
+  
+   color: white;
+   
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: green;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover,:active{
+    background-color: darkgreen;
+    color: white;  
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+  .links a{
+      color:blueviolet;
+      padding: 200px;
+      text-decoration: none ;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 20px;
+  }
+  .row:after{
+  content:"";
+  display:table;
+  clear:both;
+  }
+  .card{
+  background-color:black;
+  border-radius: 10px;
+  width:31%;
+  margin:15px;
+  float:left;
+  overflow:hidden;
+  height:370px;
+  position: relative;
+  }
+  .card:hover{
+    box-shadow: 7px 7px 40px black;
+  }
+  .card img{
+    width:100%;
+    height:90%;
+  }
+  .card h4{
+    font-stretch: ultra-expanded;
+   margin-top: 6px;
+   color: white;
+   text-align: center;
+  }
+  .list{
+    border-radius: 10px;
+    padding: 8px;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:#f2f2f2;
+  }
+  .list h4{
+    margin: 10px;
+    color: darkviolet;
+  }
+  .list marquee{
+    margin-right: 60px;
+  }
+  .list img{
+    width: 3%;
+  }
+  .label{
+    margin-right: 15px;
+    height: 35px;
+  }
+  .song{
+    float:right;
+    margin-top: -8px;
+  }
+  .map{
+    float: left;
+    width:50%;
+    padding:6px;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+  }
+  #mumbai{
+    border-radius: 4px;
+  }
+  #address{
+    float: left;
+    color: whitesmoke;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  #location{
+    position: absolute;
+    color: red;
+    float: left;
+    margin-top: 25px;
+    margin-left: -30px;
+  }
+  #envelope{
+    position: absolute;
+    color: skyblue;
+    float: left;
+    margin-top: 10px;
+    margin-left: -30px;
+  }
+  #guitar{
+    position: absolute;
+    color: sandybrown;
+    margin-top: 48px;
+    margin-left: -120px;
+  }
+  .home{
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .home img{
+    width: 100%;
+    height: 400px;
+  } 
+  .aboutus{
+   width: 80%;
+   float: left;
+   
+  }
+  .bgimg{
+    background-image: url("aboutusimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .aboutus h2{
+    color: purple;
+  }
+  .aboutus span{
+    background-color: white;
+  }
+  .playlist{
+    color: black;
+    position:absolute;
+    float: left;
+  }
